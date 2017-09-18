@@ -8,11 +8,17 @@
 
 ## Windows Installation
 
-* Install Python3: [python-3.5.2-amd64.exe](https://www.python.org/ftp/python/3.5.2/python-3.5.2-amd64.exe)
-
 * Install Erlang : [otp_win64_20.0.exe](http://erlang.org/download/otp_win64_20.0.exe)
 
 * Install RabbitMQ: [rabbitmq-server-3.6.12.exe](https://github.com/rabbitmq/rabbitmq-server/releases/download/rabbitmq_v3_6_12/rabbitmq-server-3.6.12.exe)
+
+* Install Python3: [python-3.5.2-amd64.exe](https://www.python.org/ftp/python/3.5.2/python-3.5.2-amd64.exe)
+
+* Install `pika`
+
+```bash
+$ pip install pika==0.11.0
+```
 
 ## Enable RabbitMQ Management Plugin (optional)
 
