@@ -45,7 +45,21 @@ $ git clone https://github.com/robertoachar/python-rabbitmq.git
 * Hello World
 
 ```bash
-$ python -m python_rabbitmq
+# producer
+$ python hello-world/producer.py
+
+# consumer
+$ python hello-world/consumer.py
+```
+
+* Work Queues
+
+```bash
+# task
+$ python work-queues/task.py
+
+# worker
+$ python work-queues/worker.py
 ```
 
 # Troubleshooting
